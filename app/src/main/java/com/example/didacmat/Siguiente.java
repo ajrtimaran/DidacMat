@@ -13,15 +13,15 @@ public class Siguiente extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_siguiente);
     }
-public void Adición(View v) {
+public void Adicion(View v) {
     Intent intent = new Intent(this, Suma. class);
     startActivity(intent);
 }
-public void Sustracción(View v){
+public void Sustraccion(View v){
         Intent intent = new Intent(this, Resta. class);
         startActivity(intent);
 }
-public void Multiplicación(View v){
+public void Multiplicacion(View v){
         Intent intent = new Intent(this, Duplico. class);
         startActivity(intent);
 }

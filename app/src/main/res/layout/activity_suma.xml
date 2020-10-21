@@ -6,4 +6,78 @@
     android:layout_height="match_parent"
     tools:context=".Suma">
 
+
+    <Button
+        android:id="@+id/buttonr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="196dp"
+        android:onClick="evaluaRespuesta"
+        android:text="2"
+        android:textSize="42sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonr3"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="@+id/buttonr1"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/buttonr3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="evaluaRespuesta"
+        android:text="2"
+        android:textSize="42sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="378dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="204dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageViewN1"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/n1" />
+
+        <ImageView
+            android:id="@+id/imageViewSuma"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/mas" />
+        <ImageView
+            android:id="@+id/imageViewN2"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/n2" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="196dp"
+        android:onClick="evaluaRespuesta"
+        android:text="2"
+        android:textSize="42sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
