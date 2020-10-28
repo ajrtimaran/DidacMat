@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#3EFF00"
     tools:context=".Resta">
 
     <Button
@@ -16,6 +17,7 @@
         android:onClick="resultadoresta"
         android:text="2"
         android:textSize="42sp"
+        android:background="#00B6ff"
         app:layout_constraintEnd_toStartOf="@+id/buttonr3"
         app:layout_constraintHorizontal_bias="0.192"
         app:layout_constraintStart_toStartOf="@+id/buttonr1"
@@ -31,6 +33,7 @@
         android:onClick="resultadoresta"
         android:text="2"
         android:textSize="42sp"
+        android:background="#FF7400"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
@@ -76,6 +79,7 @@
         android:onClick="resultadoresta"
         android:text="2"
         android:textSize="42sp"
+        android:background="#D1D2B8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#45A"
     tools:context=".Duplico">
+
     <Button
         android:id="@+id/buttonr2"
         android:layout_width="wrap_content"
@@ -15,6 +17,7 @@
         android:onClick="respuestamulti"
         android:text="2"
         android:textSize="42sp"
+        android:background="#FF0E03"
         app:layout_constraintEnd_toStartOf="@+id/buttonr3"
         app:layout_constraintHorizontal_bias="0.192"
         app:layout_constraintStart_toStartOf="@+id/buttonr1"
@@ -30,6 +33,7 @@
         android:onClick="respuestamulti"
         android:text="2"
         android:textSize="42sp"
+        android:background="#79FF03"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
@@ -63,6 +67,7 @@
             android:layout_height="96dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/n2" />
+
     </LinearLayout>
 
     <Button
@@ -75,6 +80,7 @@
         android:onClick="respuestamulti"
         android:text="2"
         android:textSize="42sp"
+        android:background="#FBFF03"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 

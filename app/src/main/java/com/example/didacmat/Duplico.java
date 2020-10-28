@@ -76,12 +76,11 @@ public class Duplico extends AppCompatActivity {
         cargarNumero(n1, numero1);
         cargarNumero(n2, numero2);
 
-        int res = n1-n2;
+        int res = n1*n2;
 
-        int v1 = Math.abs(res + ((int) (Math.random() * n1) * 1));
-        int v2 = Math.abs(res - ((int) (Math.random() * n1) * 1));
-        int v3 = Math.abs(v1 +
-                ((int) (Math.random() * n2) * 1));
+        int v1 = Math.abs(res - ((int) (Math.random() * n1) * 1));
+        int v2 = Math.abs(res * ((int) (Math.random() * n1) * 1));
+        int v3 = Math.abs(v1 +  ((int) (Math.random() * n2) * 1));
 
 
 
